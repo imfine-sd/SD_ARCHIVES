@@ -1,42 +1,33 @@
-[
-    {
-        "IMDevice": [
-            {
-                "name": "Mobile",
-                "version": 2081,
-                "file_path": "/IMDevice/imdevice.apk",
-                "history": "업데이트 기능 추가",
-                "update_date": "2020/09/11 03:17"
-            },
-            {
-                "name": "Server",
-                "version": 101,
-                "file_path": "/IMDevice/server.zip",
-                "history": "..."
-            }
-        ]
+{
+    "IMDevice": {
+        "Mobile" : {
+            "version": 2081,
+            "file_path": "/IMDevice/imdevice.apk",
+            "history": "업데이트 기능 추가",
+            "update_date": "2020/09/11 03:17"
+        },
+        "Server" : {
+            "version": 101,
+            "file_path": "/IMDevice/server.zip",
+            "history": "..."
+        }
     },
-    {
-        "Facade": [
-            {
-                "name": "Mobile",
-                "version": 100,
-                "file_path": "/IMDevice/facade.apk",
-                "history": "업데이트 기능 추가"
-            },
-            {
-                "name": "Setting",
-                "version": 100,
-                "file_path": "/IMDevice/knox.apk",
-                "history": "업데이트 기능 추가"
-            },
-            {
-                "name": "Server",
-                "version": 101,
-                "file_path": "/IMDevice/server.zip",
-                "history": "..."
-            }
-        ]
+    "Facade": {
+        "Mobile" : {
+            "version": 100,
+            "file_path": "/IMDevice/facade.apk",
+            "history": "업데이트 기능 추가"
+        },
+        "Setting" : {
+            "version": 100,
+            "file_path": "/IMDevice/knox.apk",
+            "history": "업데이트 기능 추가"
+        },
+        "Server" : {
+            "version": 101,
+            "file_path": "/IMDevice/server.zip",
+            "history": "..."
+        }
     }
 
-]
+}
